@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Shopping section starting  */
+#shipping{
+    background-color:rgb(18, 18, 18);
+    text-align: center;
+    color:#d5c6c6;
+    font-size: 14px;
+    width: 100%;
+    position: static;
+    font-family: BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+ }
+ #shop{
+   height: 45px;
+   padding-top: 10px;
+   width: 100%;
+   border-bottom:0.01px solid #2a2a2a;
+ }
+
+ #shop:hover{
+     background-color:rgb(34, 32, 32);
+ }
+
+ #ships{
+    text-decoration: none;
+}
+
+/* Shopping Section is Ended */
+
+/* Navbar section starting */
+ 
+.hiden{
+    @media(max-width:750px){
+          display: none;
+    }
+}
+
+header{
+    height: 90px;
+    background-color:rgb(18, 18, 18);
+    color: #d5c6c6;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+ }
+ 
+ 
+ li{
+     display: inline-block;
+     padding-right: 35px;
+     
+ }
+ 
+ #logo{
+   width: 130px;
+   height: 25px;
+   margin-top: 10px;
+ }
+ 
+ #home{
+   color: #ffffff;
+   text-decoration: underline;
+   padding-top: -10px;
+   padding-left: 15px;
+ }
+ 
+ #user{
+     text-decoration: none;
+ }
+ 
+ #home2{
+   color: #d5c6c6;
+ }
+ 
+ #home2:hover{
+     color: #ffffff;
+     text-decoration: underline;
+ }
+ 
+ #home3,#home4{
+     color: #e7dada;
+     transition: all 1ms ease 0s ;
+ }
+ 
+ #home3:hover{
+     transform: scale(1.19);
+ }
+ 
+ #home4:hover{
+     transform: scale(1.19);
+ }
+ 
+ 
+
+/* Navbar section Ended */
+
+
+/* Profile Section Starting */
+
+.content-wrapper img {
+    width: 100%; /* Make the image responsive */
+    max-width: 400px; /* Specify the max width for the image */
+    height: auto;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 50px;
+    transition: width height 2s steps(1) 0ms;
+    border: none;
+    width: 150px;
+    height: 60px;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+/* Profile Section Ending */
+
+/* Footer Section Starting */
+
+.footer{
+    background-color: #0f0f0f;
+    padding-top: 30px;
+    height: 400px;
+    border-bottom: 1px solid rgb(29, 30, 30);
+}
+
+.footer2{
+    color: gray;
+    padding: 40px;
+    background-color: #0f0f0f;
+   
+}
+
+.mb-1{
+    font-size: 20px;
+    color: #ffffffb3;
+    text-decoration: underline;
+}
+
+.mb-1:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#insta{
+    transition: font-size 1s ease 0ms;
+    padding: 40px 0 50px 0
+}
+
+#insta:hover{
+    transform: scale(1.2);
+    color: white;
+}
+
+.footer2{
+    background-color: #0f0f0f;
+}
+
+/* Footer Section Ended */
+
+#terms{
+    text-decoration: none;
+    color: gray;
+}
+
+#terms:hover{
+   text-decoration: underline;
+   color: white;
+}
